@@ -17,4 +17,7 @@ body {
 .mono {
 	font-family: "Lucida Console", Monaco, monospace;
 }
-
+.logo {
+	height: 50px;
+	width: 50px;
+}
