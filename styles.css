@@ -6,6 +6,8 @@ div.scrollmenu {
   z-index: 1;
   position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
 }
 div.scrollmenu a {
   display: inline-block;
@@ -17,22 +19,58 @@ div.scrollmenu a {
 div.scrollmenu a:hover {
   background-color: #777;
 }
+body .content {
+	position: absolute; 
+	top: 0; 
+	left: 0;
+}
 #home {
 	background: url("images/plane_sky.JPG") no-repeat fixed center;
   	background-size: cover;
  	height: 100vh;
  	width: 100vw;
+ 	display: inline-block;
 }
 #home h1 {
 	font-size: 50px;
-	font-weight: bolder;
-	position: absolute;
-    top:  50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+	font-weight: bolder; 
+	position: relative;
+	top: 45%;
 }
+#home ul {
+	position: relative;
+	top: 50%;
+}
+.icon {
+	display: inline;
+}
+.icon a {
+	padding-right: 80px;
+}
+.icon i {
+	font-size: 40px;
+	color:black;
+}
+
+i:link, i:visited {
+	color: black;
+}
+i:hover, i:active {
+	color: darkgray;
+}
+
+
 h2 {
 	font-size: 35px;
+}
+#about img {
+	height: 300px;
+	width: 300px;
+	margin: 30px;
+	float: left;
+}
+p {
+	margin: 40px;
 }
 .center {
 	text-align: center;
@@ -44,20 +82,3 @@ h2 {
 	font-family: "Lucida Console", Monaco, monospace;
 }
 
-li {
-	display: inline;
-}
-li a {
-	padding-right: 70px;
-}
-i {
-	font-size: 30px;
-	color:black;
-}
-
-i:link, i:visited {
-	color: black;
-}
-i:hover, i:active {
-	color: darkgray;
-}
