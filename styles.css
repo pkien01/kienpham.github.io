@@ -17,4 +17,13 @@
 .mono {
 	font-family: "Lucida Console", Monaco, monospace;
 }
-\
+
+li {
+	display: inline;
+}
+li a {
+	padding: 10px 50px;
+}
+i {
+	font-size: 60px;
+}
