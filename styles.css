@@ -13,7 +13,7 @@ div.scrollmenu a {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 20px 30px;
+  padding: 20px 40px;
   text-decoration: none;
 }
 div.scrollmenu a:hover {
@@ -28,7 +28,7 @@ body .content {
 	background: url("images/plane_sky.JPG") no-repeat fixed center;
   	background-size: cover;
  	height: 100vh;
- 	width: 100vw;
+ 	width: 98.72vw;
  	display: inline-block;
 }
 #home h1 {
@@ -63,14 +63,23 @@ i:hover, i:active {
 h2 {
 	font-size: 35px;
 }
+#about {
+	margin-top: 50px;
+	display: inline-block;
+}
 #about img {
 	height: 300px;
 	width: 300px;
 	margin: 30px;
 	float: left;
 }
-p {
-	margin: 40px;
+#about p {
+	margin: 50px;
+	font-size: 20px;
+	text-align: justify;
+}
+#contact {
+	margin-top: 50px;
 }
 .center {
 	text-align: center;
