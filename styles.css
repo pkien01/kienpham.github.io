@@ -1,8 +1,8 @@
-body {
-	background-image: url("images/plane_sky.JPG");
-	background-position: center;
- 	background-repeat: no-repeat;
+.home {
+	background: url("images/plane_sky.JPG") no-repeat fixed center;
   	background-size: cover;
+  	height: 100vh;
+ 	width: 100vw;
 }
 .box {
 	margin: auto;
@@ -17,7 +17,4 @@ body {
 .mono {
 	font-family: "Lucida Console", Monaco, monospace;
 }
-.logo {
-	height: 50px;
-	width: 50px;
-}
+\
