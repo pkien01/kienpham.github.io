@@ -1,0 +1,20 @@
+body {
+	background-image: url("images/plane_sky.JPG");
+	background-position: center;
+ 	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.box {
+	margin: auto;
+	width: 30%;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 30px 60px 80px;
+}
+.black {
+	color: white;
+}
+.mono {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
