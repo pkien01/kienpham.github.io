@@ -25,7 +25,7 @@ body .content {
 	left: 0;
 }
 #home {
-	background: url("images/plane_sky.JPG") no-repeat fixed center;
+	background: url("media/plane_sky.JPG") no-repeat fixed center;
   	background-size: cover;
  	height: 100vh;
  	width: 98.72vw;
